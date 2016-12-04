@@ -4,7 +4,7 @@
 ## How to Install
 
 ```bash
-cordova plugin add com-sarriaroman-photoviewer
+cordova plugin add cordova-plugin-photo-viewer
 ```
 
 ### Android
