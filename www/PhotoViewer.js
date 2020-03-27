@@ -1,6 +1,6 @@
 var exec = require('cordova/exec');
 
-exports.show = function(url, title, options) {
+exports.show = function(url, title, options, success) {
     if( title == undefined ) {
       title = '';
     }
@@ -9,5 +9,5 @@ exports.show = function(url, title, options) {
         options = {};
     }
 
-    exec(function(){}, function(){}, "PhotoViewer", "show", [url, title, options]);
+    exec(success, function(){}, "PhotoViewer", "show", [url, title, options]);
 };
