@@ -1,9 +1,11 @@
 repositories{
-  jcenter()
+  google()
+  mavenCentral()
+  maven { url "https://jitpack.io" }
 }
 
 dependencies {
-   compile 'com.commit451:PhotoView:1.2.4'
+   compile 'com.github.chrisbanes.photoview:library:1.2.4'
    compile 'com.squareup.picasso:picasso:2.5.2'
 }
 
