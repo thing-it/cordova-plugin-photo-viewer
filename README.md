@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This repository has been archived because the original Android library is no longer available on any Maven repository host. Please use https://github.com/thing-it/photoviewer instead.
+
 # Photo Viewer  
 > This plugin is intended to show a picture from an URL into a Photo Viewer with zoom features.
 
